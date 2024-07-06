@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    background-color:antiquewhite;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.container{
+    background-color:black;
+    color:darkcyan;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.container h1{
+    margin: 10px 0 10px;
+    letter-spacing: 1.5px;
+    font-size: 30px;
+}
+
+.all-subjects{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-bottom:10px;
+}
+.all-subjects input{
+    background: none;
+    outline: none;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    border: 3px solid rgb(85, 255, 204);
+    color:black;
+    border-radius: 10px;
+    font-size: 20px;
+    color: darkcyan;
+    font-weight: bolder;
+}
+
+.all-subjects input::placeholder{
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    color:darkcyan;
+}
+
+#result{
+    color: darkcyan;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.result-box{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.result-box button{
+    width:100px;
+    height: 50px;
+    background-color: rgb(85, 255, 204);
+    color: rgb(16, 16, 16);
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 700px; ;
+}
+
+.result-box p{
+    width: 600px;
+    height: 90px;
+    border: 2px solid rgb(85, 255, 204);
+    border-radius: 8px;
+    color:rgb(85, 255, 204);
+    font-size: 20px;
+    padding: 10px 0 0 20px;
+}
+
+.result-box p b {color:beige;}
+
+.student-info input{
+    background: none;
+    outline: none;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    border: 3px solid rgb(85, 255, 204);
+    color:black;
+    border-radius: 10px;
+    font-size: 20px;
+    color: darkcyan;
+    font-weight: bolder;
+}
+.student-info input::placeholder{
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    color:darkcyan;
+}
+
